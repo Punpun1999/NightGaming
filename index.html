@@ -5,29 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NightGaming</title>
 
-    <style> /* Probando css */
+    <style>
         .gallery-container {
-          display: flex;
-          justify-content: space-around;
-          background-color: #f2f2f2; /* Color de fondo */
-          padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
         }
-        /* Estilos para cada logo de empresa */
         .logo {
-            margin: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            text-align: center;
-            flex: 25%; /* Cada logo ocupa el 25% del contenedor */
-            max-width: 20%; /* Ancho máximo de cada logo */
-            box-sizing: border-box;
+            border-radius: 50%; /* Hace que la forma sea circular */
+            width: 100px; /* Ancho de cada logo */
+            height: 100px; /* Altura de cada logo para hacerlo circular */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /* Oculta cualquier parte del logo que se salga del círculo */
         }
-
         .logo img {
-            max-width: 50%;
-            height: 60%;
+            max-width: 100%;
+            max-height: 100%;
         }
-      </style>
+    </style>
     
 </head>
 <body>
